@@ -15,7 +15,7 @@
   <arg name="posearray_topic" default="/waypoints"/>
 
   <!-- Main Node -->
-  <node pkg="lb_navigation_scripts" type="follow_waypoints.py" name="follow_waypoints" output="screen" clear_params="true">
+  <node pkg="lb_navigation_scripts" type="ds_follow_waypoints.py" name="ds_follow_waypoints" output="screen" clear_params="true">
     <!-- Reference frames -->
     <param name="goal_frame_id"    value="$(arg goal_frame_id)"/>
     <param name="odom_frame_id"    value="$(arg odom_frame_id)"/>

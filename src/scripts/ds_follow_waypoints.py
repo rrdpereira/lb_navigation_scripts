@@ -247,7 +247,7 @@ class PathComplete(State):
 
 
 def main():
-    rospy.init_node('follow_waypoints')
+    rospy.init_node('ds_follow_waypoints')
 
     sm = StateMachine(outcomes=['success'])
 
